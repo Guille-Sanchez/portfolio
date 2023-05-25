@@ -1,0 +1,92 @@
+.dark-mode-active button, .dark-mode-inactive button {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.dark-mode-active button {
+  background-color: var(--fifth-color);
+  color: white;
+}
+
+.dark-mode-inactive button {
+  background-color: var(--inactive-dark-mode-background);
+
+}
+
+.dark-mode-active > *, .dark-mode-inactive button > * {
+  cursor: pointer;
+}
+
+header {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px;
+  width: 100%;
+}
+
+header > div {
+  width: clamp(375px, 90%, 1900px);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+header .dark-mode-active a {
+  color: whitesmoke;
+}
+
+header .dark-mode-inactive a {
+  color: var(--inactive-dark-mode-font-color);;
+}
+
+header .dark-mode-active a:hover {
+  color: var(--second-color);
+}
+
+.moon-icon {
+  height: 30px;
+}
+
+.sun-icon {
+  width: 30px;
+}
+
+@media (min-width: 500px) {
+  header {
+    font-size: clamp(1rem, 0.754rem + 1.049vw, 2rem);
+    padding: 30px var(--left-right-padding) 30px;
+  }
+
+  header nav {
+    width: clamp(300px, 300px + 15vw, 500px);
+  }
+  
+  header nav ul {
+    justify-content: space-evenly;
+  }
+
+  .moon-icon{
+    height: clamp(1rem, 0.754rem + 1.049vw, 2rem);
+  }
+  
+  .sun-icon {
+    width: clamp(1rem, 0.754rem + 1.049vw, 2rem);
+  }
+}
