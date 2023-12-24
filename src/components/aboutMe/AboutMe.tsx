@@ -6,11 +6,10 @@ function AboutMe (): JSX.Element {
       <div className='about-me' id='about-me'>
         <h1>Guillermo Sánchez</h1>
         <p>
-          Front-End Developer with experience in creating responsive websites in React.
+          Full-Stack Developer Front-End oriented with experience in creating responsive websites integrating React.js.
         </p>
         <p>
-          Typically, I implement raw HTML/CSS and JavaScript with React in the client side;
-          however, there are times in which I prefer using TypeScript and TailwindCSS in my projects.
+          Typically implements raw HTML/CSS and JavaScript with React in the client side; however, there are times in which requirements get a little bit funky and starts using Tailwind, Firebase for the Front-End and Django Rest Framework, Postgresql for the Back-end.
         </p>
       </div>
 
@@ -24,7 +23,7 @@ function AboutMe (): JSX.Element {
           <img className='technology-icon' style={{ borderRadius: '10px' }} src="./javascript-svgrepo-com.svg" alt="JavaScript logo" />
           <img className='technology-icon' src="./typescript-svgrepo-com.svg" alt="Typescript logo" />
           <img className='technology-icon' src="./python-svgrepo-com.svg" alt="Python logo" />
-          <img className='technology-icon' src="./ruby-svgrepo-com.svg" alt="Ruby logo" />
+          <img className='technology-icon' src="./postgresql-logo-svgrepo-com.svg" alt="Postgresql logo" />
           <img className='technology-icon' src="./mongodb-svgrepo-com.svg" alt="MongoDB logo" />
           <img className='technology-icon' src="./express-svgrepo-com.svg" alt="Express logo" />
           <img className='technology-icon' src="./react.svg" alt="React logo" />

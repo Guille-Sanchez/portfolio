@@ -29,8 +29,6 @@ h1 {
   gap: 20px;
 }
 
-
-
 .technologies-container > header {
   padding: 0 0 0 var(--left-right-padding);
 }
@@ -40,7 +38,6 @@ h1 {
   text-align: left;
   width: 100%;
 }
-
 
 .technology-icon {
   width: clamp(3.125rem, 2.664rem + 1.967vw, 5rem);

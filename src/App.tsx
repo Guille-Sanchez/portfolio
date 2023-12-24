@@ -4,6 +4,7 @@ import ProjectsGrid from './components/projectsGrid/ProjectsGrid'
 import './homepage.css'
 import AboutMe from './components/aboutMe/AboutMe'
 import { DarkModeProvider } from '../src/context/darkMode'
+import { WorkExperience } from './components/workExperience/WorkExperience'
 
 function App (): JSX.Element {
   return (
@@ -12,6 +13,7 @@ function App (): JSX.Element {
 
       <main>
         <AboutMe />
+        <WorkExperience />
         <ProjectsGrid />
       </main>
 
